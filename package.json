@@ -5,7 +5,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "https://github.com/auth0/passport-linkedin-oauth2"
+    "url": "https://github.com/avetisyan/passport-linkedin-oauth2"
   },
   "scripts": {
     "test": "mocha -t 5000"
@@ -17,15 +17,17 @@
     "morgan": "^1.9.1",
     "nock": "^10.0.5",
     "passport": "^0.4.0",
-    "should": "^13.2.3"
+    "should": "^13.2.3",
+    "url": "^0.11.0"
   },
   "keywords": [
     "passport",
     "linkedin",
-    "auth0"
+    "oauth2"
   ],
-  "author": "Auth0",
+  "author": "Vardan Avetisyan",
   "contributors": [
+    "Vardan Avetisyan <avetisyan@gmail.com>",
     "Eugenio Pace <eugenio.pace@qraftlabs.com>",
     "Joshua Schell <jschell12@gmail.com>",
     "Jose Romaniello <jfromaniello@gmail.com>",

@@ -1,8 +1,10 @@
 A simple [Passport](http://passportjs.org/) strategy for LinkedIn OAuth2 that works with lite profile.
 
+This implementation has an ugly workaround for storing the state in the session - this is used so that authentication works properly on [NodeBB](https://nodebb.org)
+
 ## Install
 
-  npm install passport-linkedin-oauth2
+  npm install @avetisyan/passport-linkedin-oauth2
 
 ## Usage
 
@@ -92,6 +94,9 @@ If you have found a bug or if you have a feature request, please report them at 
 
 ## Author
 
+[Vardan Avetisyan](mailto:avetisyan@gmail.com)
+
+Completely based on work of
 [Auth0](auth0.com)
 
 ## License
